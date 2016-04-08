@@ -10,8 +10,8 @@ var test = require('tape')
  */
 
 test('should work', function (t) {
-  t.ok(t.abbr)
-  t.notOk(t.asdf)
+  t.ok(htmlAttrs.abbr)
+  t.equal(htmlAttrs.asdf, undefined)
 
   t.end()
 })
