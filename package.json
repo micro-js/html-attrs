@@ -1,0 +1,15 @@
+{
+  "name": "@f/html-attrs",
+  "description": "List of all valid HTML attributes",
+  "repository": "git://github.com/micro-js/html-attrs.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
